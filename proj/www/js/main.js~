@@ -1,0 +1,3 @@
+MHCI.controller("MainCtrl", function($scope){
+
+});

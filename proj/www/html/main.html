@@ -1,0 +1,8 @@
+<div>
+  <img ng-repeat="book in books" 
+       src="{{book.img}}" 
+       class="move-transition"
+       ng-class="{'move': book.move}"
+       style="z-index: {{book.$index}};"
+       ng-swipe-down="move()"/>
+</div>

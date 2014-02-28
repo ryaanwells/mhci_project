@@ -1,0 +1,3 @@
+var MHCI = angular.app("MHCI", function(){
+
+})

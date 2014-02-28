@@ -1,0 +1,12 @@
+.move-transition{
+    -webkit-transition: top 1s;
+    transition: top 1s;
+
+    width: 100%;
+    top: 0;
+    position: fixed;
+    height: 100%;
+}
+.move{
+    top: 100%;
+}
