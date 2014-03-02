@@ -1,4 +1,4 @@
-var MHCI = angular.module("MHCI", ['ngRoute', 'ngTouch', 'swipe'])
+var MHCI = angular.module("MHCI", ['ngRoute', 'swipe'])
   .config(['$routeProvider', function($routeProvider) {
     $routeProvider
       .when('/', {

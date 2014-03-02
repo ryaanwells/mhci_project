@@ -1,8 +1,19 @@
 <div>
+  <div ng-show="detail"
+       ng-swipe-right="close()"
+       class="detail">
+    <h1>{{selected.title}}</h1>
+    {{selected.desc}}
+  </div>
   <img ng-repeat="book in books" 
        src="{{book.img}}" 
        class="move-transition"
-       ng-class="{'move': book.move}"
+       ng-class="{'move': book.move,
+		 'open': book.open}"
        style="z-index: {{book.$index}};"
-       ng-swipe-down="move()"/>
+       ng-hide="detail && !book.opening"
+       ng-click="cancelCycle()"
+       ng-swipe-left="open()"
+       ng-swipe-right="cycle()"
+       ng-swipe-down="next()"/>
 </div>

@@ -1,6 +1,24 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+
 .move-transition{
-    -webkit-transition: top 1s;
-    transition: top 1s;
+    -webkit-transition: top 1s, width 1s;
+    transition: top 1s, width 1s;
+
+    /* -webkit-transition: width 1s; */
+    /* transition: width 1s; */
 
     width: 100%;
     top: 0;
@@ -9,4 +27,30 @@
 }
 .move{
     top: 100%;
+}
+
+.open_book{
+    -webkit-animation: open_anim 1s linear;
+    animation: open_anim 1s linear;
+    transform-style: preserve-3d;
+}
+
+@keyframes open_anim{
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(90deg);}
+}
+
+.open {
+    width: 0%;
+}
+
+.detail {
+    width: 100%;
+    top: 0;
+    position: fixed;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 5px;
+    font-size: 20px;
 }
