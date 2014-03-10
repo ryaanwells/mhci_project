@@ -37,9 +37,12 @@
 /home/ryan/src/mhci_project/proj/platforms/android/assets/www/html/main.html \
 /home/ryan/src/mhci_project/proj/platforms/android/assets/www/img/smothered_in_hugs.jpg \
 /home/ryan/src/mhci_project/proj/platforms/android/assets/www/img/logo.png \
+/home/ryan/src/mhci_project/proj/platforms/android/assets/www/img/marvelage41.jpg \
 /home/ryan/src/mhci_project/proj/platforms/android/assets/www/img/smothered_in_hugs.html \
 /home/ryan/src/mhci_project/proj/platforms/android/assets/www/img/and_then_theres_this.jpg \
 /home/ryan/src/mhci_project/proj/platforms/android/assets/www/img/how_to_live.jpg \
+/home/ryan/src/mhci_project/proj/platforms/android/assets/www/img/marvelage5.jpg \
+/home/ryan/src/mhci_project/proj/platforms/android/assets/www/img/marvelage17.jpg \
 /home/ryan/src/mhci_project/proj/platforms/android/assets/www/res/screen \
 /home/ryan/src/mhci_project/proj/platforms/android/assets/www/res/icon \
 /home/ryan/src/mhci_project/proj/platforms/android/assets/www/res/screen/bada \
